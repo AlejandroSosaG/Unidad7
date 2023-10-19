@@ -1,4 +1,5 @@
-﻿using Unidad7.Views;
+﻿
+using Unidad7.Views;
 
 namespace Unidad7
 {
@@ -8,7 +9,7 @@ namespace Unidad7
         {
             InitializeComponent();
 
-            MainPage = new PaginaTabbed();
+            MainPage = new NavigationPage(new MainPage());
         }
     }
 }

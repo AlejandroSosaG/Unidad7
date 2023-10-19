@@ -4,7 +4,7 @@
              xmlns:local="clr-namespace:Unidad7.Views"
              x:Class="Unidad7.Views.PaginaTabbed"
              Title="PaginaTabbed">
-    <local:MainPage></local:MainPage>
+    <local:Pagina1></local:Pagina1>
     <local:Pagina2></local:Pagina2>
     <local:Pagina3></local:Pagina3>
 </TabbedPage>

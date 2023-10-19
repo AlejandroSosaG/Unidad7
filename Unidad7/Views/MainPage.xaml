@@ -2,14 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Unidad7.Views.MainPage"
-             Title="Pagina1">
-
+             Title="MainPage">
     <VerticalStackLayout>
-        <Image source="C:\Users\asosa\Downloads\pag1.png"/>
-        <Label 
-        Text="Hola soy la página 1"
-        VerticalOptions="Center" 
-        HorizontalOptions="Center" />
+        <Entry x:Name="Nombre"></Entry>
+        <Entry x:Name="Apellidos"></Entry>
+        <Button x:Name="Boton" Clicked="OnClicked" Text="Click"></Button>
+        <Button x:Name="Boton2" Clicked="Pagina4" Text="´Página 4"></Button>
+        <Button x:Name="Boton3" Clicked="Pagina5" Text="´Página 5"></Button>
     </VerticalStackLayout>
-
 </ContentPage>

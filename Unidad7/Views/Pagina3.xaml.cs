@@ -6,4 +6,8 @@ public partial class Pagina3 : ContentPage
 	{
 		InitializeComponent();
 	}
+	private async void OnClicked(object sender, EventArgs e)
+	{
+		await Navigation.PopToRootAsync();
+	}
 }
