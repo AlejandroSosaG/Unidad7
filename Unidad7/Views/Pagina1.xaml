@@ -4,12 +4,10 @@
              x:Class="Unidad7.Views.Pagina1"
              Title="Pagina1"
              IconImageSource="pika.png">
-
     <VerticalStackLayout>
         <Label 
     Text="Hola soy la página 1"
     VerticalOptions="Center" 
     HorizontalOptions="Center" />
     </VerticalStackLayout>
-
 </ContentPage>

@@ -68,6 +68,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\Libreria\Libreria.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Views\Pagina2.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

@@ -5,7 +5,8 @@
              Title="Pagina4">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            x:Name="Persona"
+            Text=""
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>

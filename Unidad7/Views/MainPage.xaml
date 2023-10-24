@@ -6,8 +6,8 @@
     <VerticalStackLayout>
         <Entry x:Name="Nombre"></Entry>
         <Entry x:Name="Apellidos"></Entry>
-        <Button x:Name="Boton" Clicked="OnClicked" Text="Click"></Button>
-        <Button x:Name="Boton2" Clicked="Pagina4" Text="´Página 4"></Button>
-        <Button x:Name="Boton3" Clicked="Pagina5" Text="´Página 5"></Button>
+        <Button x:Name="Boton" Clicked="OnClicked" Text="Tabbed Page"></Button>
+        <Button x:Name="Boton2" Clicked="Pagina4" Text="Página 4"></Button>
+        <Button x:Name="Boton3" Clicked="Pagina5" Text="Página 5"></Button>
     </VerticalStackLayout>
 </ContentPage>
